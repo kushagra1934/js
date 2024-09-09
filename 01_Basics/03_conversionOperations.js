@@ -69,6 +69,31 @@ gameCounter++ //101
 console.log(gameCounter);
 
 
+//******************************************************************
+
+//stack(Primitive) and heap(Non-primitive) 
+
+let myYoutubename="kushagrasaxenadotcom"
+let anothername=myYoutubename
+
+anothername="chaiaurcode"
+
+console.log(anothername);
+console.log(myYoutubename);
+
+let userOne ={
+    email:"user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo=userOne
+
+userTwo.email="kush@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
 
 
 
