@@ -19,3 +19,20 @@ console.log(a);
 // console.log(b);
 // console.log(c);
 
+//++++++++scope level and mini hoisting in js
+
+function one(){
+    const username="kushagra"
+
+    function two(){
+        const website="youtube"
+        console.log(username);
+    }
+    // console.log(website);
+    two()
+    
+}
+//one()
+
+//in nested function the child function can access the parent function variable as it is global scope for them
+
