@@ -33,7 +33,6 @@ JsUser.email="kushagra@micro.com"
 
 JsUser.greeting=function(){
     console.log("Hello JS User");
-    
 }
 JsUser.greetingTwo=function(){
     console.log(`Hello JS User, ${this.name}`);
