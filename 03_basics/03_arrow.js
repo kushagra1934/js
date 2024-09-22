@@ -66,4 +66,4 @@ console.log(addTwo1(3,4));
 
 //in case of objects we need to wrap it up in small parenthesis
 
-//arrow function will be used mostly in react
+//arrow function will be used mostly in react 
